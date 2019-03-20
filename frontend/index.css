@@ -1,0 +1,19 @@
+div {
+    margin: 1rem;
+}
+
+input {
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    background: purple;
+    color: yellow;
+    border: solid 5px yellow;
+    border-radius: 30px;
+    font-size: 2rem;
+}
+
+button {
+    height: 40px;
+    width: 100px;
+}

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="./script.js"></script>
+    <link rel="stylesheet" href="index.css">
+    <title>Chatapp</title>
+</head>
+
+<body>
+    <h1>Socket.io Example</h1>
+    <div id="login-div">
+        <input type="text" placeholder="username" id="loginbox">
+        <button id="login">LOGIN</button>
+    </div>
+
+    <div id="chat-div" style="display:none">
+        <input type="text" placeholder="Message" id="msgbox">
+        <button id="send">SEND</button>
+        <ul id="msglist" type="none"></ul>
+    </div>
+</body>
+
+</html>
