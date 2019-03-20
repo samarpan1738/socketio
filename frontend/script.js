@@ -11,6 +11,7 @@ $(() => {
     let username;
     loginbtn.click(() => {
         username = loginbox.val();
+        socket.emit('login', username);
         $('#login-div').css("display", "none");
         document.title = username
         $('#chat-div').css("display", "block");
