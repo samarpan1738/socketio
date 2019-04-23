@@ -1,7 +1,3 @@
-div {
-    margin: 1rem;
-}
-
 input {
     width: 200px;
     height: 50px;
@@ -17,4 +13,19 @@ input {
 button {
     height: 40px;
     width: 100px;
+}
+
+body {
+    align-content: center;
+    background: grey;
+}
+
+div {
+    position: absolute;
+    left: 41.5%;
+    top: 20vh;
+}
+
+li {
+    font-size: 2em;
 }
